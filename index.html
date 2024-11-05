@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jeema coder</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <input type="text" id="prenom" placeholder="Prénom" required>
+        <input type="text" id="nom" placeholder="Nom" required><br><br>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="tel" id="telephone" placeholder="Numéro de téléphone" required><br>
+        <button onclick="ajouterUtilisateur()" class="ajouter">Ajouter</button>
+    </div>
+
+    <div class="table-container">
+        <table id="utilisateursTable">
+            <thead>
+                <tr>
+                    <th>Prénom</th>
+                    <th>Nom</th>
+                    <th>Email</th>
+                    <th>Téléphone</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Les utilisateurs ajoutés seront ici -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="code.js">
+        // ------------------------------------code JavaScript---------------------------------
+    </script>
+
+</body>
+</html>
